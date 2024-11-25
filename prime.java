@@ -8,7 +8,7 @@ class prime {
     }
 
     public static void main(String[] args) {
-        int num = 30;
-        System.out.println(num + " is prime? " + isPrime(num));
+        int n = 30;
+        System.out.println(a(n));
     }
 }
