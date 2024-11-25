@@ -1,8 +1,8 @@
 class prime {
-    public static boolean isPrime(int number) {
-        if (number <= 1) return false;
-        for (int i = 2; i * i <= number; i++) {
-            if (number % i == 0) return false;
+    public static boolean a(int n) {
+        if (n <= 1) return false;
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) return false;
         }
         return true;
     }
