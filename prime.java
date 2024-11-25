@@ -8,7 +8,7 @@ class prime {
     }
 
     public static void main(String[] args) {
-        int n = 30;
+        int n = 29;
         System.out.println(a(n));
     }
 }
